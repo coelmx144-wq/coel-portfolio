@@ -26,9 +26,9 @@ function LinkedinIcon({ className = "w-5 h-5" }: { className?: string }) {
 export default function Contact() {
   const [copied, setCopied] = useState(false);
 
-  // Safe placeholders as instructed
+  // Safe verified contact info
   const emailPlaceholder = "coelmx144@gmail.com";
-  const linkedInPlaceholder = "https://linkedin.com/in/coel-tech";
+  const linkedInUrl = "https://www.linkedin.com/in/coel-nelson-a28931449";
   const githubPlaceholder = "https://github.com/coelmx144-wq";
 
   const copyEmail = () => {
@@ -96,22 +96,27 @@ export default function Contact() {
 
             {/* LinkedIn Card */}
             <a
-              href={linkedInPlaceholder}
+              href={linkedInUrl}
               target="_blank"
               rel="noreferrer"
               className="p-5 rounded-2xl bg-[var(--bg-muted)] border border-[var(--border-color)] hover:border-indigo-500/40 transition-all space-y-3 group"
             >
-              <div className="p-2.5 w-fit rounded-xl bg-blue-500/10 text-blue-400 border border-blue-500/20">
-                <LinkedinIcon className="w-5 h-5" />
+              <div className="flex items-center justify-between">
+                <div className="p-2.5 w-fit rounded-xl bg-blue-500/10 text-blue-400 border border-blue-500/20">
+                  <LinkedinIcon className="w-5 h-5" />
+                </div>
+                <span className="px-2 py-0.5 rounded text-[10px] font-semibold tracking-wide uppercase bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+                  Verified
+                </span>
               </div>
               <div>
                 <div className="text-xs text-[var(--text-muted)] font-medium">LinkedIn Profile</div>
                 <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-indigo-400 transition-colors">
-                  Connect on LinkedIn
+                  coel-nelson
                 </div>
               </div>
               <div className="text-[11px] text-[var(--text-muted)]">
-                Professional network & recommendations
+                Connect on LinkedIn & view network
               </div>
             </a>
 
