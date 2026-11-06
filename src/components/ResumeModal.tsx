@@ -52,8 +52,8 @@ export default function ResumeModal({
             </p>
             <ul className="list-disc list-inside space-y-1 text-xs text-[var(--text-muted)]">
               <li>~5,000 Hours Commercial & Industrial Electrical Apprenticeship</li>
-              <li>Founder & Builder of Optimized Organization (Next.js 16 / Postgres)</li>
-              <li>Brand & Operations Lead for UNITY Clothing (Supply Chain & Drops)</li>
+              <li>Independent Builder of Optimized Organization (Next.js 16 / Postgres)</li>
+              <li>Brand & Operations Creator for UNITY Clothing (Supply Chain & Drops)</li>
               <li>Airport Customer Service & High-Pressure Incident De-escalation</li>
               <li>Focus: Remote AI Operations, Technical Support, Solutions Specialist</li>
             </ul>

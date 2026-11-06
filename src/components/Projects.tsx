@@ -28,7 +28,7 @@ interface ProjectItem {
 }
 
 export default function Projects() {
-  const [expandedProject, setExpandedProject] = useState<string>("oo");
+  const [expandedProject, setExpandedProject] = useState<string>("");
 
   const projects: ProjectItem[] = [
     {

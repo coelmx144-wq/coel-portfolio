@@ -35,30 +35,30 @@ export default function Hero() {
           </p>
         </div>
 
-        {/* Action CTAs */}
-        <div className="flex flex-wrap items-center gap-3 sm:gap-4 pt-8">
-          <a
-            href="#projects"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-medium text-sm transition-all shadow-md shadow-indigo-600/25 hover:shadow-indigo-500/40 hover:-translate-y-0.5 cursor-pointer"
-          >
-            Explore Case Studies
-            <ArrowRight className="w-4 h-4" />
-          </a>
-
+        {/* Action CTAs: High-prominence Resume & Contact */}
+        <div className="flex flex-wrap items-center gap-3.5 sm:gap-4 pt-8">
           <button
             onClick={() => setResumeOpen(true)}
             type="button"
-            className="inline-flex items-center gap-2 px-5 py-3 rounded-xl border border-[var(--border-color)] bg-[var(--bg-card)] hover:bg-[var(--bg-muted)] text-[var(--text-primary)] text-sm font-medium transition-all hover:-translate-y-0.5 cursor-pointer"
+            className="inline-flex items-center gap-2.5 px-6 py-3.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-sm transition-all shadow-lg shadow-indigo-600/30 hover:shadow-indigo-500/50 hover:-translate-y-0.5 cursor-pointer"
           >
-            <FileText className="w-4 h-4 text-indigo-400" />
-            Download Resume
+            <FileText className="w-4 h-4 text-white" />
+            Resume & Credentials
           </button>
 
           <a
             href="#contact"
-            className="inline-flex items-center gap-2 px-5 py-3 rounded-xl border border-transparent hover:border-[var(--border-color)] text-[var(--text-secondary)] hover:text-[var(--text-primary)] text-sm font-medium transition-colors"
+            className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl border-2 border-indigo-500/40 hover:border-indigo-500 bg-[var(--bg-card)] hover:bg-[var(--bg-muted)] text-[var(--text-primary)] font-semibold text-sm transition-all hover:-translate-y-0.5 shadow-sm"
           >
             Get In Touch
+            <ArrowRight className="w-4 h-4 text-indigo-400" />
+          </a>
+
+          <a
+            href="#projects"
+            className="inline-flex items-center gap-1.5 px-4 py-3.5 text-xs font-medium text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors"
+          >
+            Explore Case Studies ↓
           </a>
         </div>
 

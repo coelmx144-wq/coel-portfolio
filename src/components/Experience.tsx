@@ -14,17 +14,17 @@ interface ExperienceItem {
 export default function Experience() {
   const experiences: ExperienceItem[] = [
     {
-      title: "Founder & Technical Operations Lead",
-      organization: "Optimized Organization & UNITY Clothing",
+      title: "Independent Product Creator & Operations Lead",
+      organization: "Self-Directed Projects (Optimized Organization & UNITY Clothing)",
       period: "2024 — Present",
       location: "Alaska (Remote)",
-      badge: "Software & Digital Operations",
+      badge: "Independent Projects & Operations",
       points: [
-        "Architected and deployed Optimized Organization (OO), a production Next.js 16 web application with Neon PostgreSQL and Prisma 6.",
-        "Pioneered an AI-assisted development workflow, directing autonomous agents (Hermes/ChatGPT) through iterative requirement writing, code reviews, and manual browser QA.",
-        "Engineered domain-specific UX solutions including a 6:00 AM natural daily cycle reset and continuous Web Speech API audio buffers.",
-        "Managed global supply chains for UNITY Clothing: negotiated with overseas manufacturers, audited sample tolerances, and organized drop logistics.",
-        "Configured and maintained infrastructure: Cloudflare DNS, SSL/TLS, Vercel CI/CD pipelines, and secret management.",
+        "Conceived, planned, and independently built Optimized Organization (OO), a full-stack personal productivity web application utilizing Next.js 16 and cloud PostgreSQL.",
+        "Implemented an AI-assisted development workflow, guiding autonomous agents (Hermes / ChatGPT) via structured requirements, reviewing generated code, and performing extensive manual browser QA.",
+        "Specified and refined user experience workflows including a 6:00 AM natural daily cycle reset and continuous Web Speech API audio buffers.",
+        "Managed physical brand operations for UNITY Clothing: communicated with overseas apparel manufacturers, inspected fabric and stitch samples, and coordinated direct-to-consumer drop schedules.",
+        "Configured and maintained hosting infrastructure: Cloudflare DNS, SSL/TLS, Vercel deployments, and secure secret management.",
       ],
     },
     {
